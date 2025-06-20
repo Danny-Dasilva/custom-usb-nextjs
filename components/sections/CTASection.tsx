@@ -5,7 +5,7 @@ import { Phone, ArrowRight, Shield, Clock, Award } from "lucide-react";
 export function CTASection() {
   return (
     <section className="relative overflow-hidden">
-      <div className="gradient-primary py-20 md:py-28">
+      <div className="gradient-primary py-16 md:py-24">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-transparent" />
         <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-blue-700/20 rounded-full blur-3xl" />
@@ -17,7 +17,7 @@ export function CTASection() {
               <span className="text-sm font-medium text-white">Trusted by 5,000+ Businesses Since 2003</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white animate-fade-in">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
               Ready to Elevate Your Brand?
             </h2>
             <p className="text-xl md:text-2xl mb-10 text-blue-50 max-w-2xl mx-auto leading-relaxed">

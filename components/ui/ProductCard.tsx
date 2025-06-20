@@ -17,9 +17,7 @@ export function ProductCard({ product }: ProductCardProps) {
       className="group block bg-white rounded-xl border border-gray-100 hover:border-gray-200 hover:shadow-xl transition-all duration-300 overflow-hidden card-hover"
     >
       <div className="relative h-48 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
-        <div className="absolute top-2 right-2 bg-accent text-white text-xs font-semibold px-2 py-1 rounded-full z-10">
-          Best Seller
-        </div>
+       
         <Image
           src={product.images.main}
           alt={product.name}
@@ -29,12 +27,7 @@ export function ProductCard({ product }: ProductCardProps) {
       </div>
       
       <div className="p-5">
-        <div className="flex items-center gap-1 mb-2">
-          {[...Array(5)].map((_, i) => (
-            <Star key={i} className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-          ))}
-          <span className="text-xs text-gray-500 ml-1">(4.8)</span>
-        </div>
+       
         
         <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors">
           {product.name}

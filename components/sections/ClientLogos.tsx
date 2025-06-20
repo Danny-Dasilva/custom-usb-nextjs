@@ -36,7 +36,7 @@ export function ClientLogos() {
                 alt={`${client.name} logo`}
                 width={120}
                 height={60}
-                className="opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+                className="opacity-80 hover:opacity-100 transition-opacity"
               />
             </div>
           ))}

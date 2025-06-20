@@ -37,10 +37,11 @@ export const navigationItems: NavigationItem[] = [
     href: "/about",
   },
   {
+    label: "Blog",
+    href: "/blog",
+  },
+  {
     label: "FAQ",
     href: "/faqs",
-    children: [
-      { label: "Blog", href: "/blog" },
-    ],
   },
 ];

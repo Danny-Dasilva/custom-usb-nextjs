@@ -48,7 +48,7 @@ export function ValuePropositions() {
         </div>
 
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8">
-          {values.map((value, index) => (
+          {values.map((value) => (
             <div
               key={value.title}
               className="group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 border border-gray-100 hover:border-blue-200"

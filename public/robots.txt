@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://customusbsource.com
+
+# Sitemaps
+Sitemap: https://customusbsource.com/sitemap.xml

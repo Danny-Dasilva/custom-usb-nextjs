@@ -14,18 +14,15 @@ const clients = [
 
 export function ClientLogos() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-12 md:py-16 bg-white border-y border-gray-100">
       <Container>
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8">
+          <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-6">
             Trusted by Leading Brands
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trust us with their custom USB drive needs
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 items-center justify-items-center">
           {clients.map((client) => (
             <div
               key={client.name}
@@ -36,7 +33,7 @@ export function ClientLogos() {
                 alt={`${client.name} logo`}
                 width={120}
                 height={60}
-                className="opacity-80 hover:opacity-100 transition-opacity"
+                className="opacity-60 hover:opacity-100 transition-opacity filter hover:filter-none max-w-full h-auto"
               />
             </div>
           ))}

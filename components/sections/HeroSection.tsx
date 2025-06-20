@@ -32,19 +32,33 @@ export function HeroSection() {
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
-            Transform your brand with premium promotional USB drives. 
-            <span className="block mt-2 text-base md:text-lg">Bulk orders with exclusive discounts and free standard shipping.</span>
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+            Transform your brand with premium promotional USB drives that make lasting impressions.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto mb-10">
+            <div className="flex items-center justify-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
+              <span className="text-green-600 font-bold">✓</span>
+              <span className="text-sm font-medium text-gray-700">No Minimum Order</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
+              <span className="text-green-600 font-bold">✓</span>
+              <span className="text-sm font-medium text-gray-700">Free Shipping</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 border border-white/20">
+              <span className="text-green-600 font-bold">✓</span>
+              <span className="text-sm font-medium text-gray-700">5-Day Rush Available</span>
+            </div>
+          </div>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
               href="/quick-quote" 
               size="lg"
               className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
               <span className="relative z-10 flex items-center">
-                Get a Quick Quote
+                Get Your Free Quote
                 <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -57,7 +71,7 @@ export function HeroSection() {
               size="lg"
               className="group border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 text-lg font-semibold transition-all duration-200"
             >
-              Browse Products
+              Browse 8 Categories
               <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
